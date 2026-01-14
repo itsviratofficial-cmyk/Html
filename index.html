@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make New Friends - Premium Video Chat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-pink: #d81b60;
+            --gradient-start: #e91e63;
+            --gradient-end: #ad1457;
+            --bg-color: #fce4ec;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header Section */
+        header {
+            width: 100%;
+            background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-content h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header-content p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            color: var(--primary-pink);
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        /* Download Button */
+        .download-btn {
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            display: inline-block;
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+
+        .download-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Models Grid */
+        .models-container {
+            width: 90%;
+            max-width: 500px;
+        }
+
+        .model-card {
+            background: white;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid #f8bbd0;
+        }
+
+        .profile-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 3px solid #ff4081;
+            margin-right: 15px;
+            object-fit: cover;
+        }
+
+        .model-info {
+            flex-grow: 1;
+        }
+
+        .model-name {
+            font-weight: 600;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .verified-tick {
+            color: #2196F3;
+            margin-left: 5px;
+            font-size: 14px;
+        }
+
+        .model-tag {
+            background: #fce4ec;
+            color: #d81b60;
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .status {
+            font-size: 12px;
+            color: #4CAF50;
+        }
+
+        .call-icon {
+            background: #4CAF50;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        footer {
+            margin: 30px 0;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Make New Friends</h1>
+            <p>Connect with verified profiles instantly</p>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h2>Talk to Hot Models Live!</h2>
+        <p>100% Private & Secure Video Calls</p>
+        <a href="your-app-link.apk" class="download-btn">INSTALL APP NOW</a>
+    </div>
+
+    <div class="models-container">
+        <div class="model-card">
+            <img src="https://via.placeholder.com/150" alt="Model" class="profile-img">
+            <div class="model-info">
+                <div class="model-name">Poorvika <span class="verified-tick">✔</span></div>
+                <div class="model-tag">Intimate Call Expert</div>
+                <div class="status">● Available Now</div>
+            </div>
+            <div class="call-icon">📞</div>
+        </div>
+
+        <div class="model-card">
+            <img src="https://via.placeholder.com/150" alt="Model" class="profile-img">
+            <div class="model-info">
+                <div class="model-name">Priya <span class="verified-tick">✔</span></div>
+                <div class="model-tag">Sweet Talk Expert</div>
+                <div class="status">● Available Now</div>
+            </div>
+            <div class="call-icon">📞</div>
+        </div>
+
+        <div class="model-card">
+            <img src="https://via.placeholder.com/150" alt="Model" class="profile-img">
+            <div class="model-info">
+                <div class="model-name">Anjali <span class="verified-tick">✔</span></div>
+                <div class="model-tag">Engaging Talk Star</div>
+                <div class="status">● Available Now</div>
+            </div>
+            <div class="call-icon">📞</div>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Premium Video Calls. All Rights Reserved.
+    </footer>
+
+</body>
+              </html>
+  
